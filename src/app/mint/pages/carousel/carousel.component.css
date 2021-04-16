@@ -5,3 +5,14 @@ a {
 .btn-link {
     text-decoration: none;
 }
+
+
+
+/* Hover effect */
+nav a {
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background: #fbe831;
+}
