@@ -1,10 +1,15 @@
 a {
     color: black;
 }
+button{
+    background-color: #fbe831;
+}
 
 .btn-link {
     text-decoration: none;
 }
+
+
 
 
 /* Hover effect on nav */
