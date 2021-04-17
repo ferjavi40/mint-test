@@ -4,6 +4,7 @@ import { CarouselComponent } from './pages/carousel/carousel.component';
 import { SharedModule } from '../shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 
@@ -11,7 +12,8 @@ import { BlogComponent } from './pages/blog/blog.component';
   declarations: [
     CarouselComponent,
     AboutComponent,
-    BlogComponent
+    BlogComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { BlogComponent } from './pages/blog/blog.component';
   exports: [
     CarouselComponent,
     AboutComponent,
-    BlogComponent
+    BlogComponent,
+    ContactComponent
   ]
 })
 export class MintModule { }
