@@ -3,3 +3,17 @@ footer{
     width: 100%;
     background-color: black;
 }
+
+.fa-chevron-up{
+    color: white;
+    cursor: pointer;
+}
+
+.zoom {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
