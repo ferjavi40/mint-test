@@ -10,3 +10,7 @@ button {
 .zoom:hover {
     transform: scale(1.5);
 }
+
+.margen{
+    margin-top: 6em;
+}
