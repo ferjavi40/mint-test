@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { CarouselComponent } from './pages/carousel/carousel.component';
 import { SharedModule } from '../shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 
 
 @NgModule({
   declarations: [
     CarouselComponent,
-    AboutComponent
+    AboutComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { AboutComponent } from './pages/about/about.component';
   ],
   exports: [
     CarouselComponent,
-    AboutComponent
+    AboutComponent,
+    BlogComponent
   ]
 })
 export class MintModule { }
