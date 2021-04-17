@@ -5,6 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 
 
@@ -13,7 +14,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     CarouselComponent,
     AboutComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +25,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     CarouselComponent,
     AboutComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ]
 })
 export class MintModule { }
