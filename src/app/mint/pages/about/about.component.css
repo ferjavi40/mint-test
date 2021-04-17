@@ -1,4 +1,23 @@
-.altura{
+.altura {
     height: 350px;
     width: 300px;
+}
+
+/* text on contenedor */
+
+/* Container holding the image and the text */
+.contenedor {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fbe831;
+    color: white;
+    padding-right: 30px;
+    padding-left: 10px;
+    height: 70px;
 }
