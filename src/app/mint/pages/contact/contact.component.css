@@ -1,3 +1,12 @@
-button{
+button {
     background-color: #fbe831;
+}
+
+.zoom {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
 }
